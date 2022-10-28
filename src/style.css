@@ -26,3 +26,7 @@ body {
 	@apply fixed z-[100] bg-white bg-opacity-80 shadow-sm;
 	backdrop-filter: blur(5px);
 }
+
+.secondary-desc {
+	@apply font-medium text-secondary;
+}

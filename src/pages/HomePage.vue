@@ -1,14 +1,14 @@
 <template>
-	<div class="container mt-36">
+	<div class="container mt-36 h-96">
 		<div class="flex flex-wrap mb-36">
 			<div class="w-full lg:w-1/2 self-center px-4">
 				<h1 class="text-base md:text-xl font-semibold text-primary">
 					Halo Semua 👋, saya
 					<span class="block font-bold text-dark text-4xl lg:text-5xl mt-1">Muhamad</span>
 				</h1>
-				<h2 class="font-medium text-secondary text-lg lg:text-2xl mb-5">Web Developer</h2>
+				<h2 class="secondary-desc text-lg lg:text-2xl mb-5">Web Developer</h2>
 
-				<p class="font-medium text-secondary mb-10 leading-relaxed">
+				<p class="secondary-desc mb-10 leading-relaxed">
 					Belajar web programming itu mudah dan menyenangkan bukan.
 					<span class="text-dark font-bold">bukan!</span>
 				</p>
@@ -37,12 +37,12 @@
 			<div class="w-full lg:w-1/2 px-4 mb-10">
 				<h4 class="font-bold text-primary uppercase text-lg mb-3">Tentang Saya</h4>
 				<h2 class="font-bold text-dark text-3xl lg:text-4xl mb-5 max-w-md">Yuk Belajar Web Programming Bareng</h2>
-				<p class="font-medium text-base lg:text-lg text-secondary max-w-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita culpa perspiciatis modi ipsa aperiam. Similique.</p>
+				<p class="secondary-desc text-base lg:text-lg max-w-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita culpa perspiciatis modi ipsa aperiam. Similique.</p>
 			</div>
 
 			<div class="w-full lg:w-1/2 px-4">
 				<h3 class="font-semibold text-dark text-2xl lg:text-3xl mb-4 lg:pt-10">Mari Berteman</h3>
-				<p class="font-medium text-base lg:text-lg text-secondary mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum aliquid, qui omnis recusandae veritatis. Autem sed ipsum blanditiis eligendi.</p>
+				<p class="secondary-desc text-base lg:text-lg mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum aliquid, qui omnis recusandae veritatis. Autem sed ipsum blanditiis eligendi.</p>
 
 				<div class="flex items-center gap-3">
 					<!-- LinkedIn -->
