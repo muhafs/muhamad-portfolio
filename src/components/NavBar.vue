@@ -16,10 +16,10 @@
 					<nav class="absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none" :class="{ hidden: !burgerActive }">
 						<ul class="block lg:flex">
 							<li class="group">
-								<router-link :to="{ name: 'home' }" class="flex text-base text-dark py-2 mx-8 group-hover:text-primary">Home</router-link>
+								<router-link :to="{ name: 'home' }" active-class="text-teal-500" class="flex text-base text-dark py-2 mx-8 group-hover:text-primary">Home</router-link>
 							</li>
 							<li class="group">
-								<router-link :to="{ name: 'protfolio' }" class="flex text-base text-dark py-2 mx-8 group-hover:text-primary">Portfolio</router-link>
+								<router-link :to="{ name: 'protfolio' }" active-class="text-teal-500" class="flex text-base text-dark py-2 mx-8 group-hover:text-primary">Portfolio</router-link>
 							</li>
 						</ul>
 					</nav>

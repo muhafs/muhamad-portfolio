@@ -18,8 +18,8 @@ const routes = [
 		name: 'protfolio',
 		component: ProtfolioPage,
 		meta: {
-			enterClass: 'animate__animated animate__fadeInLeft',
-			leaveClass: 'animate__animated animate__fadeOutRight',
+			enterClass: 'animate__animated animate__fadeInRight',
+			leaveClass: 'animate__animated animate__fadeOutLeft',
 		},
 	},
 ];
