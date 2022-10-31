@@ -121,9 +121,12 @@
 				</div>
 			</div>
 		</div>
+
+		<Footer />
 	</div>
 </template>
 
 <script setup>
 	import Heading from '@/components/Heading.vue';
+	import Footer from '@/components/Footer.vue';
 </script>

@@ -3,7 +3,7 @@
 
 	<router-view v-slot="{ Component, route }" mode="out-in">
 		<transition :enter-active-class="route.meta.enterClass" :leave-active-class="route.meta.leaveClass">
-			<component :is="Component" class="absolute top-0 left-0 w-full" />
+			<component :is="Component" class="absolute top-0 left-0 w-full h-full" />
 		</transition>
 	</router-view>
 </template>

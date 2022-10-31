@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 import HomePage from '@/pages/HomePage.vue';
-import ProtfolioPage from '@/pages/ProtfolioPage.vue';
+import PortfolioPage from '@/pages/PortfolioPage.vue';
 
 const routes = [
 	{
@@ -14,9 +14,9 @@ const routes = [
 		},
 	},
 	{
-		path: '/protfolio',
-		name: 'protfolio',
-		component: ProtfolioPage,
+		path: '/portfolio',
+		name: 'portfolio',
+		component: PortfolioPage,
 		meta: {
 			enterClass: 'animate__animated animate__fadeInRight',
 			leaveClass: 'animate__animated animate__fadeOutLeft',

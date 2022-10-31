@@ -19,7 +19,7 @@
 								<router-link :to="{ name: 'home' }" class="flex text-base text-dark py-2 mx-8 group-hover:text-primary transition">Home</router-link>
 							</li>
 							<li class="group">
-								<router-link :to="{ name: 'protfolio' }" class="flex text-base text-dark py-2 mx-8 group-hover:text-primary transition">Portfolio</router-link>
+								<router-link :to="{ name: 'portfolio' }" class="flex text-base text-dark py-2 mx-8 group-hover:text-primary transition">Portfolio</router-link>
 							</li>
 						</ul>
 					</nav>
