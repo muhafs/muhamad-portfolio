@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div id="home">
 		<div class="pt-36">
 			<div class="container">
 				<div class="flex flex-wrap mb-36">
@@ -22,8 +22,8 @@
 						<div class="relative mt-10 lg:mt-0 lg:right-0">
 							<img src="@/assets/images/portfolio/anonymous.png" alt="Muhamad Haspin" class="max-w-full mx-auto" />
 
-							<span class="absolute -bottom-5 left-1/2 -translate-x-1/2 -z-10 lg:scale-125">
-								<svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+							<span class="absolute -bottom-5 left-1/2 -translate-x-1/2 -z-10 sm:scale-150">
+								<svg width="300" height="300" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
 									<path
 										fill="#14b8a6"
 										d="M43.2,-56.9C54.2,-42.2,60.2,-26.9,65.3,-9.8C70.4,7.4,74.7,26.5,68.4,41.3C62,56.1,45,66.5,26.8,72.8C8.6,79.1,-10.9,81.2,-25.3,74C-39.7,66.8,-49.1,50.3,-57.6,34C-66.2,17.7,-73.9,1.6,-72.4,-13.7C-70.8,-29.1,-59.9,-43.7,-46.3,-58C-32.7,-72.2,-16.3,-86,-0.1,-85.9C16.1,-85.7,32.1,-71.6,43.2,-56.9Z"
@@ -179,14 +179,11 @@
 				</form>
 			</div>
 		</div>
-
-		<Footer />
 	</div>
 </template>
 
 <script setup>
 	import Heading from '@/components/Heading.vue';
-	import Footer from '@/components/Footer.vue';
 </script>
 
 <style scoped></style>

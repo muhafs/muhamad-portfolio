@@ -8,24 +8,16 @@ const routes = [
 		path: '/',
 		name: 'home',
 		component: HomePage,
-		meta: {
-			enterClass: 'animate__animated animate__fadeInLeft',
-			leaveClass: 'animate__animated animate__fadeOutRight',
-		},
 	},
 	{
 		path: '/portfolio',
 		name: 'portfolio',
 		component: PortfolioPage,
-		meta: {
-			enterClass: 'animate__animated animate__fadeInRight',
-			leaveClass: 'animate__animated animate__fadeOutLeft',
-		},
 	},
 ];
 
 const router = createRouter({
-	history: createWebHistory(),
+	history: createWebHistory(import.meta.env.BASE_URL),
 	routes,
 });
 

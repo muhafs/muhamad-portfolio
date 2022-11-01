@@ -1,47 +1,49 @@
 <template>
-	<div class="pt-36 bg-slate-100">
-		<div class="container">
-			<Heading>
-				<template #title>Portfolio</template>
-				<template #sub> Project Terbaru </template>
-				<template #desc> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus ad fuga ipsum animi nesciunt architecto. </template>
-			</Heading>
+	<div id="portfolio">
+		<div class="pt-36 bg-slate-100">
+			<div class="container">
+				<Heading>
+					<template #title>Portfolio</template>
+					<template #sub> Project Terbaru </template>
+					<template #desc> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus ad fuga ipsum animi nesciunt architecto. </template>
+				</Heading>
 
-			<div class="w-full px-4 flex flex-wrap justify-center">
-				<div class="p-4 md:w-1/2 xl:w-1/3">
-					<div class="rounded-md shadow-md overflow-hidden mb-5">
-						<img src="@/assets/images/portfolio/landingPage404.jpg" alt="Landing Page" class="w-full" />
+				<div class="w-full px-4 flex flex-wrap justify-center">
+					<div class="p-4 md:w-1/2 xl:w-1/3">
+						<div class="rounded-md shadow-md overflow-hidden mb-5">
+							<img src="@/assets/images/portfolio/landingPage404.jpg" alt="Landing Page" class="w-full" />
+						</div>
+
+						<h3 class="font-semibold text-xl text-dark">Landing Page</h3>
+						<p class="secondary-desc text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias minus commodi excepturi! Alias, at.</p>
 					</div>
 
-					<h3 class="font-semibold text-xl text-dark">Landing Page</h3>
-					<p class="secondary-desc text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias minus commodi excepturi! Alias, at.</p>
-				</div>
+					<div class="p-4 md:w-1/2 xl:w-1/3">
+						<div class="rounded-md shadow-md overflow-hidden mb-5">
+							<img src="@/assets/images/portfolio/landingPage404.jpg" alt="Landing Page" class="w-full" />
+						</div>
 
-				<div class="p-4 md:w-1/2 xl:w-1/3">
-					<div class="rounded-md shadow-md overflow-hidden mb-5">
-						<img src="@/assets/images/portfolio/landingPage404.jpg" alt="Landing Page" class="w-full" />
+						<h3 class="font-semibold text-xl text-dark">Landing Page</h3>
+						<p class="secondary-desc text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias minus commodi excepturi! Alias, at.</p>
 					</div>
 
-					<h3 class="font-semibold text-xl text-dark">Landing Page</h3>
-					<p class="secondary-desc text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias minus commodi excepturi! Alias, at.</p>
-				</div>
+					<div class="p-4 md:w-1/2 xl:w-1/3">
+						<div class="rounded-md shadow-md overflow-hidden mb-5">
+							<img src="@/assets/images/portfolio/landingPage404.jpg" alt="Landing Page" class="w-full" />
+						</div>
 
-				<div class="p-4 md:w-1/2 xl:w-1/3">
-					<div class="rounded-md shadow-md overflow-hidden mb-5">
-						<img src="@/assets/images/portfolio/landingPage404.jpg" alt="Landing Page" class="w-full" />
+						<h3 class="font-semibold text-xl text-dark">Landing Page</h3>
+						<p class="secondary-desc text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias minus commodi excepturi! Alias, at.</p>
 					</div>
 
-					<h3 class="font-semibold text-xl text-dark">Landing Page</h3>
-					<p class="secondary-desc text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias minus commodi excepturi! Alias, at.</p>
-				</div>
+					<div class="p-4 md:w-1/2 xl:w-1/3">
+						<div class="rounded-md shadow-md overflow-hidden mb-5">
+							<img src="@/assets/images/portfolio/landingPage404.jpg" alt="Landing Page" class="w-full" />
+						</div>
 
-				<div class="p-4 md:w-1/2 xl:w-1/3">
-					<div class="rounded-md shadow-md overflow-hidden mb-5">
-						<img src="@/assets/images/portfolio/landingPage404.jpg" alt="Landing Page" class="w-full" />
+						<h3 class="font-semibold text-xl text-dark">Landing Page</h3>
+						<p class="secondary-desc text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias minus commodi excepturi! Alias, at.</p>
 					</div>
-
-					<h3 class="font-semibold text-xl text-dark">Landing Page</h3>
-					<p class="secondary-desc text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias minus commodi excepturi! Alias, at.</p>
 				</div>
 			</div>
 		</div>
@@ -121,12 +123,9 @@
 				</div>
 			</div>
 		</div>
-
-		<Footer />
 	</div>
 </template>
 
 <script setup>
 	import Heading from '@/components/Heading.vue';
-	import Footer from '@/components/Footer.vue';
 </script>
