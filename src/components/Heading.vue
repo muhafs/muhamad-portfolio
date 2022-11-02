@@ -1,11 +1,11 @@
 <template>
 	<div class="w-full px-4">
-		<div class="mx-auto text-center mb-16">
-			<h4 class="font-semibold text-lg sm:text-2xl lg:text-3xl text-primary mb-2">
+		<div class="mx-auto mb-16 text-center">
+			<h4 class="mb-2 text-lg font-semibold text-primary sm:text-2xl lg:text-3xl">
 				<slot name="title"></slot>
 			</h4>
 
-			<h2 class="font-bold text-3xl text-dark mb-4 sm:text-4xl lg:text-5xl">
+			<h2 class="mb-4 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl">
 				<slot name="sub"></slot>
 			</h2>
 

@@ -1,28 +1,28 @@
 <template>
 	<div id="home">
-		<div class="pt-36">
+		<div class="pt-36 dark:bg-dark">
 			<div class="container">
-				<div class="flex flex-wrap mb-36">
-					<div class="w-full lg:w-1/2 self-center px-4">
-						<h1 class="text-base md:text-xl font-semibold text-primary">
+				<div class="flex flex-wrap pb-36">
+					<div class="w-full self-center px-4 lg:w-1/2">
+						<h1 class="text-base font-semibold text-primary md:text-xl">
 							Halo Semua 👋, saya
-							<span class="block font-bold text-dark text-4xl lg:text-5xl mt-1">Muhamad</span>
+							<span class="mt-1 block text-4xl font-bold text-dark dark:text-white lg:text-5xl">Muhamad</span>
 						</h1>
-						<h2 class="secondary-desc text-lg lg:text-2xl mb-5">Web Developer</h2>
+						<h2 class="secondary-desc mb-5 text-lg lg:text-2xl">Web Developer</h2>
 
 						<p class="secondary-desc mb-10 leading-relaxed">
 							Belajar web programming itu mudah dan menyenangkan bukan.
-							<span class="text-dark font-bold">bukan!</span>
+							<span class="font-bold text-dark dark:text-white">bukan!</span>
 						</p>
 
-						<router-link to="/" class="bg-primary text-white text-base font-semibold py-3 px-8 rounded-full hover:shadow-xl hover:opacity-80 transition duration-300 ease-in-out">Hubungi Saya</router-link>
+						<router-link to="/" class="rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-xl">Hubungi Saya</router-link>
 					</div>
 
-					<div class="w-full lg:w-1/2 self-end px-4">
-						<div class="relative mt-10 lg:mt-0 lg:right-0">
-							<img src="@/assets/images/portfolio/anonymous.png" alt="Muhamad Haspin" class="max-w-full mx-auto" />
+					<div class="w-full self-end px-4 lg:w-1/2">
+						<div class="relative mt-10 lg:right-0 lg:mt-0">
+							<img src="@/assets/images/portfolio/anonymous.png" alt="Muhamad Haspin" class="relative z-20 mx-auto max-w-full" />
 
-							<span class="absolute -bottom-5 left-1/2 -translate-x-1/2 -z-10 sm:scale-150">
+							<span class="absolute -bottom-5 left-1/2 z-10 -translate-x-1/2 sm:scale-150">
 								<svg width="300" height="300" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
 									<path
 										fill="#14b8a6"
@@ -35,23 +35,23 @@
 					</div>
 				</div>
 
-				<div class="flex flex-wrap mb-36">
-					<div class="w-full lg:w-1/2 px-4 mb-10">
-						<h4 class="font-bold text-primary uppercase text-lg mb-3">Tentang Saya</h4>
-						<h2 class="font-bold text-dark text-3xl lg:text-4xl mb-5 max-w-md">Yuk Belajar Web Programming Bareng</h2>
-						<p class="secondary-desc text-base lg:text-lg max-w-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita culpa perspiciatis modi ipsa aperiam. Similique.</p>
+				<div class="flex flex-wrap pb-36">
+					<div class="mb-10 w-full px-4 lg:w-1/2">
+						<h4 class="mb-3 text-lg font-bold uppercase text-primary">Tentang Saya</h4>
+						<h2 class="mb-5 max-w-md text-3xl font-bold text-dark dark:text-white lg:text-4xl">Yuk Belajar Web Programming Bareng</h2>
+						<p class="secondary-desc max-w-xl text-base lg:text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita culpa perspiciatis modi ipsa aperiam. Similique.</p>
 					</div>
 
-					<div class="w-full lg:w-1/2 px-4">
-						<h3 class="font-semibold text-dark text-2xl lg:text-3xl mb-4 lg:pt-10">Mari Berteman</h3>
-						<p class="secondary-desc text-base lg:text-lg mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum aliquid, qui omnis recusandae veritatis. Autem sed ipsum blanditiis eligendi.</p>
+					<div class="w-full px-4 lg:w-1/2">
+						<h3 class="mb-4 text-2xl font-semibold text-dark dark:text-white lg:pt-10 lg:text-3xl">Mari Berteman</h3>
+						<p class="secondary-desc mb-6 text-base lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum aliquid, qui omnis recusandae veritatis. Autem sed ipsum blanditiis eligendi.</p>
 
 						<div class="flex items-center gap-3">
 							<!-- LinkedIn -->
 							<a
 								href="https://www.linkedin.com/in/muhamad-haspin-037557228/"
 								target="_blank"
-								class="border border-slate-300 hover:border-primary hover:bg-primary hover:text-white transition duration-300 w-9 h-9 rounded-full flex items-center justify-center"
+								class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 transition duration-300 hover:border-primary hover:bg-primary hover:text-white dark:border-slate-600 dark:text-white hover:dark:border-primary"
 							>
 								<svg width="20" class="fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 									<title>LinkedIn</title>
@@ -65,7 +65,7 @@
 							<a
 								href="https://github.com/muhamadhaspin"
 								target="_blank"
-								class="border border-slate-300 hover:border-primary hover:bg-primary hover:text-white transition duration-300 w-9 h-9 rounded-full flex items-center justify-center"
+								class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 transition duration-300 hover:border-primary hover:bg-primary hover:text-white dark:border-slate-600 dark:text-white hover:dark:border-primary"
 							>
 								<svg width="20" class="fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 									<title>GitHub</title>
@@ -76,7 +76,11 @@
 							</a>
 
 							<!-- WhatsApp -->
-							<a href="https://wa.me/6285161556639" target="_blank" class="border border-slate-300 hover:border-primary hover:bg-primary hover:text-white transition duration-300 w-9 h-9 rounded-full flex items-center justify-center">
+							<a
+								href="https://wa.me/6285161556639"
+								target="_blank"
+								class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 transition duration-300 hover:border-primary hover:bg-primary hover:text-white dark:border-slate-600 dark:text-white hover:dark:border-primary"
+							>
 								<svg width="20" class="fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 									<title>WhatsApp</title>
 									<path
@@ -86,7 +90,11 @@
 							</a>
 
 							<!-- Telegram -->
-							<a href="https://t.me/mhmmdhdyh" target="_blank" class="border border-slate-300 hover:border-primary hover:bg-primary hover:text-white transition duration-300 w-9 h-9 rounded-full flex items-center justify-center">
+							<a
+								href="https://t.me/mhmmdhdyh"
+								target="_blank"
+								class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 transition duration-300 hover:border-primary hover:bg-primary hover:text-white dark:border-slate-600 dark:text-white hover:dark:border-primary"
+							>
 								<svg width="20" class="fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 									<title>Telegram</title>
 									<path
@@ -99,7 +107,7 @@
 							<a
 								href="https://instagram.com/mhmmdhdyh"
 								target="_blank"
-								class="border border-slate-300 hover:border-primary hover:bg-primary hover:text-white transition duration-300 w-9 h-9 rounded-full flex items-center justify-center"
+								class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 transition duration-300 hover:border-primary hover:bg-primary hover:text-white dark:border-slate-600 dark:text-white hover:dark:border-primary"
 							>
 								<svg width="20" class="fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 									<title>Instagram</title>
@@ -114,31 +122,29 @@
 			</div>
 		</div>
 
-		<div class="pt-36 pb-32 bg-slate-800">
+		<div class="bg-slate-800 pt-36 pb-32 dark:bg-slate-100">
 			<div class="container">
 				<Heading>
 					<template #title>Clients</template>
-					<template #sub>
-						<div class="text-white">Yang Pernah Bekerjasama</div>
-					</template>
+					<template #sub> <div class="text-white dark:text-dark">Yang Pernah Bekerjasama</div> </template>
 					<template #desc> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, minus. </template>
 				</Heading>
 
 				<div class="w-full px-4">
 					<div class="flex flex-wrap items-center justify-center">
-						<a href="#" class="max-w-[50px] py-4 mx-4 lg:mx-6 xl:mx-8 grayscale opacity-60 transition duration-500 hover:opacity-100 hover:grayscale-0">
+						<a href="#" class="mx-4 max-w-[50px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100 lg:mx-6 xl:mx-8">
 							<img src="@/assets/images/clients/google.svg" alt="google" class="w-full" />
 						</a>
-						<a href="#" class="max-w-[50px] py-4 mx-4 lg:mx-6 xl:mx-8 grayscale opacity-60 transition duration-500 hover:opacity-100 hover:grayscale-0">
+						<a href="#" class="mx-4 max-w-[50px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100 lg:mx-6 xl:mx-8">
 							<img src="@/assets/images/clients/youtube.svg" alt="youtube" class="w-full" />
 						</a>
-						<a href="#" class="max-w-[50px] py-4 mx-4 lg:mx-6 xl:mx-8 grayscale opacity-60 transition duration-500 hover:opacity-100 hover:grayscale-0">
+						<a href="#" class="mx-4 max-w-[50px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100 lg:mx-6 xl:mx-8">
 							<img src="@/assets/images/clients/whatsapp.svg" alt="whatsapp" class="w-full" />
 						</a>
-						<a href="#" class="max-w-[50px] py-4 mx-4 lg:mx-6 xl:mx-8 grayscale opacity-60 transition duration-500 hover:opacity-100 hover:grayscale-0">
+						<a href="#" class="mx-4 max-w-[50px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100 lg:mx-6 xl:mx-8">
 							<img src="@/assets/images/clients/instagram.svg" alt="instagram" class="w-full" />
 						</a>
-						<a href="#" class="max-w-[50px] py-4 mx-4 lg:mx-6 xl:mx-8 grayscale opacity-60 transition duration-500 hover:opacity-100 hover:grayscale-0">
+						<a href="#" class="mx-4 max-w-[50px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100 lg:mx-6 xl:mx-8">
 							<img src="@/assets/images/clients/snapchat.svg" alt="snapchat" class="w-full" />
 						</a>
 					</div>
@@ -146,34 +152,34 @@
 			</div>
 		</div>
 
-		<div class="pt-36 pb-32">
+		<div class="pt-36 pb-32 dark:bg-dark">
 			<div class="container">
 				<Heading>
 					<template #title>Contact</template>
-					<template #sub> Hubungi Kami </template>
+					<template #sub> <div class="dark:text-white">Hubungi Kami</div> </template>
 
 					<template #desc> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, minus. </template>
 				</Heading>
 
 				<form @submit.prevent="" class="">
-					<div class="w-full lg:w-2/3 mx-auto">
-						<div class="w-full px-4 mb-8">
+					<div class="mx-auto w-full lg:w-2/3">
+						<div class="mb-8 w-full px-4">
 							<label for="name" class="text-base font-bold text-primary">Nama</label>
-							<input id="name" type="text" class="w-full mt-2 bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary transition duration-300" />
+							<input id="name" type="text" class="mt-2 w-full rounded-md bg-slate-200 p-3 text-dark transition duration-300 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary dark:text-white" />
 						</div>
 
-						<div class="w-full px-4 mb-8">
+						<div class="mb-8 w-full px-4">
 							<label for="email" class="text-base font-bold text-primary">Email</label>
-							<input id="email" type="email" class="w-full mt-2 bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary transition duration-300" />
+							<input id="email" type="email" class="mt-2 w-full rounded-md bg-slate-200 p-3 text-dark transition duration-300 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary" />
 						</div>
 
-						<div class="w-full px-4 mb-8">
+						<div class="mb-8 w-full px-4">
 							<label for="message" class="text-base font-bold text-primary">Pesan</label>
-							<textarea id="message" class="h-32 w-full mt-2 bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary transition duration-300"></textarea>
+							<textarea id="message" class="mt-2 h-32 w-full rounded-md bg-slate-200 p-3 text-dark transition duration-300 focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"></textarea>
 						</div>
 
 						<div class="w-full px-4">
-							<button type="submit" class="bg-primary hover:opacity-80 hover:shadow-lg transition duration-300 text-base font-semibold text-white px-6 py-3 rounded-full w-full">Kirim</button>
+							<button type="submit" class="w-full rounded-full bg-primary px-6 py-3 text-base font-semibold text-white transition duration-300 hover:opacity-80 hover:shadow-lg">Kirim</button>
 						</div>
 					</div>
 				</form>

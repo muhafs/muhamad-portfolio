@@ -1,52 +1,52 @@
 <template>
 	<footer class="bg-dark pt-24 pb-12">
 		<div class="container">
-			<div class="flex flex-wrap items-center justify-between mb-10">
-				<div class="w-full md:w-1/3 px-4 mb-12 text-slate-300 font-medium max-w-lg">
-					<h2 class="font-bold text-4xl text-white mb-5">Address</h2>
-					<h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
+			<div class="mb-10 flex flex-wrap items-center justify-between">
+				<div class="mb-12 w-full max-w-lg px-4 font-medium text-slate-300 md:w-1/3">
+					<h2 class="mb-5 text-4xl font-bold text-white">Address</h2>
+					<h3 class="mb-2 text-2xl font-bold">Hubungi Kami</h3>
 
 					<a href="mailto:muhamadhaspin@gmail.com" target="_blank">muhamadhaspin@gmail.com</a>
 					<p>Jl. Kh. Makki Jazuli, Dsn. Pelanggeran, Ds. Beringin, Kec. Tambelangan, Kab. Sampang (69253)</p>
 				</div>
 
-				<div class="w-full md:w-1/3 px-4 mb-12 max-w-lg">
-					<h3 class="font-semibold text-xl text-white mb-5">Kategori Tulisan</h3>
+				<div class="mb-12 w-full max-w-lg px-4 md:w-1/3">
+					<h3 class="mb-5 text-xl font-semibold text-white">Kategori Tulisan</h3>
 
 					<ul class="text-base text-slate-300">
 						<li>
-							<a href="#" class="inline-block hover:text-primary mb-3">Programming</a>
+							<a href="#" class="mb-3 inline-block hover:text-primary">Programming</a>
 						</li>
 						<li>
-							<a href="#" class="inline-block hover:text-primary mb-3">Technology</a>
+							<a href="#" class="mb-3 inline-block hover:text-primary">Technology</a>
 						</li>
 						<li>
-							<a href="#" class="inline-block hover:text-primary mb-3">Hardware</a>
+							<a href="#" class="mb-3 inline-block hover:text-primary">Hardware</a>
 						</li>
 					</ul>
 				</div>
 
-				<div class="w-full md:w-1/3 px-4 mb-12 max-w-lg">
-					<h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+				<div class="mb-12 w-full max-w-lg px-4 md:w-1/3">
+					<h3 class="mb-5 text-xl font-semibold text-white">Tautan</h3>
 
 					<ul class="text-base text-slate-300">
 						<li>
-							<router-link :to="{ name: 'home' }" class="inline-block hover:text-primary mb-3">Home</router-link>
+							<router-link :to="{ name: 'home' }" class="mb-3 inline-block hover:text-primary">Home</router-link>
 						</li>
 						<li>
-							<router-link :to="{ name: 'portfolio' }" class="inline-block hover:text-primary mb-3">Portfolio</router-link>
+							<router-link :to="{ name: 'portfolio' }" class="mb-3 inline-block hover:text-primary">Portfolio</router-link>
 						</li>
 					</ul>
 				</div>
 			</div>
 
 			<div class="w-full border-t border-slate-700">
-				<div class="flex items-center justify-center pt-10 mb-5 gap-3 text-slate-700">
+				<div class="mb-5 flex items-center justify-center gap-3 pt-10 text-slate-700">
 					<!-- LinkedIn -->
 					<a
 						href="https://www.linkedin.com/in/muhamad-haspin-037557228/"
 						target="_blank"
-						class="border border-slate-700 hover:border-primary hover:bg-primary hover:text-white transition duration-300 w-9 h-9 rounded-full flex items-center justify-center"
+						class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 transition duration-300 hover:border-primary hover:bg-primary hover:text-white"
 					>
 						<svg width="20" class="fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 							<title>LinkedIn</title>
@@ -57,7 +57,7 @@
 					</a>
 
 					<!-- GitHub -->
-					<a href="https://github.com/muhamadhaspin" target="_blank" class="border border-slate-700 hover:border-primary hover:bg-primary hover:text-white transition duration-300 w-9 h-9 rounded-full flex items-center justify-center">
+					<a href="https://github.com/muhamadhaspin" target="_blank" class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 transition duration-300 hover:border-primary hover:bg-primary hover:text-white">
 						<svg width="20" class="fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 							<title>GitHub</title>
 							<path
@@ -67,7 +67,7 @@
 					</a>
 
 					<!-- WhatsApp -->
-					<a href="https://wa.me/6285161556639" target="_blank" class="border border-slate-700 hover:border-primary hover:bg-primary hover:text-white transition duration-300 w-9 h-9 rounded-full flex items-center justify-center">
+					<a href="https://wa.me/6285161556639" target="_blank" class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 transition duration-300 hover:border-primary hover:bg-primary hover:text-white">
 						<svg width="20" class="fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 							<title>WhatsApp</title>
 							<path
@@ -77,7 +77,7 @@
 					</a>
 
 					<!-- Telegram -->
-					<a href="https://t.me/mhmmdhdyh" target="_blank" class="border border-slate-700 hover:border-primary hover:bg-primary hover:text-white transition duration-300 w-9 h-9 rounded-full flex items-center justify-center">
+					<a href="https://t.me/mhmmdhdyh" target="_blank" class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 transition duration-300 hover:border-primary hover:bg-primary hover:text-white">
 						<svg width="20" class="fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 							<title>Telegram</title>
 							<path
@@ -87,7 +87,7 @@
 					</a>
 
 					<!-- Instagram -->
-					<a href="https://instagram.com/mhmmdhdyh" target="_blank" class="border border-slate-700 hover:border-primary hover:bg-primary hover:text-white transition duration-300 w-9 h-9 rounded-full flex items-center justify-center">
+					<a href="https://instagram.com/mhmmdhdyh" target="_blank" class="flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 transition duration-300 hover:border-primary hover:bg-primary hover:text-white">
 						<svg width="20" class="fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 							<title>Instagram</title>
 							<path
@@ -97,10 +97,10 @@
 					</a>
 				</div>
 
-				<p class="text-slate-500 text-xs font-medium text-center">
-					Created with <span class="text-red-600">❤</span> by <a href="https://instagram.com/mhmmdhdyh" target="_blank" class="text-primary font-semibold tracking-tighter">Muhamad Haspin</a>, using
-					<a href="https://tailwindcss.com" target="_blank" class="text-primary font-semibold tracking-tighter">Tailwind CSS 3</a> and
-					<a href="https://v3.vuejs.org" target="_blank" class="text-primary font-semibold tracking-tighter">Vue JS 3</a>
+				<p class="text-center text-xs font-medium text-slate-500">
+					Created with <span class="text-red-600">❤</span> by <a href="https://instagram.com/mhmmdhdyh" target="_blank" class="font-semibold tracking-tighter text-primary">Muhamad Haspin</a>, using
+					<a href="https://tailwindcss.com" target="_blank" class="font-semibold tracking-tighter text-primary">Tailwind CSS 3</a> and
+					<a href="https://v3.vuejs.org" target="_blank" class="font-semibold tracking-tighter text-primary">Vue JS 3</a>
 				</p>
 			</div>
 		</div>
