@@ -1,7 +1,7 @@
 <template>
-	<footer class="bg-dark pt-24 pb-12">
+	<footer class="bg-dark pt-24 pb-12 dark:bg-slate-800">
 		<div class="container">
-			<div class="mb-10 flex flex-wrap items-center justify-between">
+			<div class="mb-10 flex flex-wrap justify-between">
 				<div class="mb-12 w-full max-w-lg px-4 font-medium text-slate-300 md:w-1/3">
 					<h2 class="mb-5 text-4xl font-bold text-white">Address</h2>
 					<h3 class="mb-2 text-2xl font-bold">Hubungi Kami</h3>
