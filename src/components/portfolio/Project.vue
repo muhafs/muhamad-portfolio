@@ -8,40 +8,15 @@
 			</Heading>
 
 			<div class="flex w-full flex-wrap justify-center px-4 pb-32">
-				<div class="p-4 md:w-1/2 xl:w-1/3">
+				<div class="p-4 md:w-1/2 xl:w-1/3" v-for="project in projects" :key="project.title">
 					<div class="mb-5 overflow-hidden rounded-md shadow-md">
-						<img src="@/assets/images/portfolio/landingPage404.jpg" alt="Landing Page" class="w-full" />
+						<img :src="project.image" :alt="project.title" class="w-full" />
 					</div>
 
-					<h3 class="text-xl font-semibold text-dark dark:text-white">Landing Page</h3>
-					<p class="secondary-desc text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias minus commodi excepturi! Alias, at.</p>
-				</div>
+					<h3 class="text-xl font-semibold text-dark dark:text-white">{{ project.title }}</h3>
+					<p class="secondary-desc text-base">{{ project.desc }}</p>
 
-				<div class="p-4 md:w-1/2 xl:w-1/3">
-					<div class="mb-5 overflow-hidden rounded-md shadow-md">
-						<img src="@/assets/images/portfolio/landingPage404.jpg" alt="Landing Page" class="w-full" />
-					</div>
-
-					<h3 class="text-xl font-semibold text-dark dark:text-white">Landing Page</h3>
-					<p class="secondary-desc text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias minus commodi excepturi! Alias, at.</p>
-				</div>
-
-				<div class="p-4 md:w-1/2 xl:w-1/3">
-					<div class="mb-5 overflow-hidden rounded-md shadow-md">
-						<img src="@/assets/images/portfolio/landingPage404.jpg" alt="Landing Page" class="w-full" />
-					</div>
-
-					<h3 class="text-xl font-semibold text-dark dark:text-white">Landing Page</h3>
-					<p class="secondary-desc text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias minus commodi excepturi! Alias, at.</p>
-				</div>
-
-				<div class="p-4 md:w-1/2 xl:w-1/3">
-					<div class="mb-5 overflow-hidden rounded-md shadow-md">
-						<img src="@/assets/images/portfolio/landingPage404.jpg" alt="Landing Page" class="w-full" />
-					</div>
-
-					<h3 class="text-xl font-semibold text-dark dark:text-white">Landing Page</h3>
-					<p class="secondary-desc text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias minus commodi excepturi! Alias, at.</p>
+					<a :href="project.source" class="text-md mt-4 inline-block rounded-md bg-primary py-2 px-4 font-medium text-white transition duration-300 hover:opacity-80 hover:shadow-xl"> source <Code class="inline h-4 w-4" /> </a>
 				</div>
 			</div>
 		</div>
@@ -50,4 +25,44 @@
 
 <script setup>
 	import Heading from '@/components/Heading.vue';
+	import Code from '@/components/Icons/Code.vue';
+	import { ref } from 'vue';
+
+	// Import images
+	import LandingPage404 from '@/assets/images/portfolio/landingPage404.jpg';
+	import Blog from '@/assets/images/portfolio/blog-1.png';
+	import Restaurant from '@/assets/images/portfolio/restaurant-1.png';
+
+	const projects = ref([
+		{
+			image: LandingPage404,
+			title: 'Library Application',
+			desc: 'sistem perpustakaan untuk pemijaman buku',
+			source: 'https://github.com/muhamadhaspin/library-project',
+		},
+		{
+			image: LandingPage404,
+			title: 'POS Application',
+			desc: 'sistem point of sale untuk mengelola akunting',
+			source: 'https://github.com/muhamadhaspin/point-of-sale',
+		},
+		{
+			image: Blog,
+			title: 'Blog Application',
+			desc: 'sistem blog untuk menulis postingan',
+			source: 'https://github.com/muhamadhaspin/blog_application',
+		},
+		{
+			image: LandingPage404,
+			title: 'Travel Application',
+			desc: 'aplikasi untuk booking travel',
+			source: 'https://github.com/muhamadhaspin/hayyah',
+		},
+		{
+			image: Restaurant,
+			title: 'Restaurant Orders Application',
+			desc: 'aplikasi untuk memesan makanan',
+			source: 'https://github.com/muhamadhaspin/vue3-restaurant',
+		},
+	]);
 </script>
