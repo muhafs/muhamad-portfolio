@@ -9,8 +9,8 @@
 
 			<div class="flex w-full flex-wrap justify-center px-4 pb-32">
 				<div class="p-4 md:w-1/2 xl:w-1/3" v-for="project in projects" :key="project.title">
-					<div class="mb-5 overflow-hidden rounded-md shadow-md">
-						<img :src="project.image" :alt="project.title" class="w-full" />
+					<div class="mb-5 h-[200px] w-full overflow-hidden rounded-md shadow-lg">
+						<img :src="project.image" :alt="project.title" class="h-full w-full object-cover" />
 					</div>
 
 					<h3 class="text-xl font-semibold text-dark dark:text-white">{{ project.title }}</h3>
@@ -32,16 +32,19 @@
 	import LandingPage404 from '@/assets/images/portfolio/landingPage404.jpg';
 	import Blog from '@/assets/images/portfolio/blog-1.png';
 	import Restaurant from '@/assets/images/portfolio/restaurant-1.png';
+	import Travel from '@/assets/images/portfolio/travel-2.png';
+	import Library from '@/assets/images/portfolio/library-1.png';
+	import POS from '@/assets/images/portfolio/pos-2.png';
 
 	const projects = ref([
 		{
-			image: LandingPage404,
+			image: Library,
 			title: 'Library Application',
 			desc: 'sistem perpustakaan untuk pemijaman buku',
 			source: 'https://github.com/muhamadhaspin/library-project',
 		},
 		{
-			image: LandingPage404,
+			image: POS,
 			title: 'POS Application',
 			desc: 'sistem point of sale untuk mengelola akunting',
 			source: 'https://github.com/muhamadhaspin/point-of-sale',
@@ -53,7 +56,7 @@
 			source: 'https://github.com/muhamadhaspin/blog_application',
 		},
 		{
-			image: LandingPage404,
+			image: Travel,
 			title: 'Travel Application',
 			desc: 'aplikasi untuk booking travel',
 			source: 'https://github.com/muhamadhaspin/hayyah',
