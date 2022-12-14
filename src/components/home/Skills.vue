@@ -13,10 +13,15 @@
 					<CSS class="h-16 w-16 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100" />
 					<JavaScript class="h-16 w-16 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100" />
 					<SCSS class="h-16 w-16 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100" />
+					<Bootstrap class="h-16 w-16 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100" />
 					<Vue class="h-16 w-16 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100" />
 					<PHP class="h-16 w-16 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100" />
 					<Laravel class="h-16 w-16 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100" />
 					<MySQL class="h-16 w-16 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100" />
+					<Git class="h-16 w-16 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100" />
+					<GitHub class="h-16 w-16 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100" />
+					<JQuery class="h-16 w-16 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100" />
+					<Tailwind class="h-16 w-16 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100" />
 				</div>
 			</div>
 		</div>
@@ -29,8 +34,13 @@
 	import CSS from '../Icons/CSS.vue';
 	import JavaScript from '../Icons/JavaScript.vue';
 	import SCSS from '../Icons/SCSS.vue';
+	import Bootstrap from '../Icons/Bootstrap.vue';
 	import Vue from '../Icons/Vue.vue';
 	import PHP from '../Icons/PHP.vue';
 	import Laravel from '../Icons/Laravel.vue';
 	import MySQL from '../Icons/MySQL.vue';
+	import Git from '../Icons/Git.vue';
+	import GitHub from '../Icons/GitHub.vue';
+	import JQuery from '../Icons/JQuery.vue';
+	import Tailwind from '../Icons/Tailwind.vue';
 </script>
