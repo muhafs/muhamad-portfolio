@@ -5,7 +5,7 @@
 				<template #title>Contact</template>
 				<template #sub> <div class="dark:text-white">Hubungi Kami</div> </template>
 
-				<template #desc> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, minus. </template>
+				<template #desc> silahkan hubungi saya lewat form kontak di bawah ini jika ada yang ingin di kepoin, hehe </template>
 			</Heading>
 
 			<form @submit.prevent="sendEmail()">

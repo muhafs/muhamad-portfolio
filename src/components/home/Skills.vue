@@ -4,7 +4,7 @@
 			<Heading>
 				<template #title>Skills</template>
 				<template #sub> <div class="text-white dark:text-dark">Yang Saya Kuasai</div> </template>
-				<template #desc> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, minus. </template>
+				<template #desc> ini beberapa bahasa perograman yang saya pernah gunakan dan pelajari selama perjalanan saya sebagai web developer. </template>
 			</Heading>
 
 			<div class="w-full px-4">

@@ -4,7 +4,7 @@
 			<Heading>
 				<template #title>Projects</template>
 				<template #sub> <div class="dark:text-white">Project Terbaru</div> </template>
-				<template #desc> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus ad fuga ipsum animi nesciunt architecto. </template>
+				<template #desc> Beberapa karya saya selama belajar koding </template>
 			</Heading>
 
 			<div class="flex w-full flex-wrap justify-center px-4 pb-32">

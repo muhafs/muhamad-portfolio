@@ -36,13 +36,13 @@
 			<div class="flex flex-wrap pb-36">
 				<div class="mb-10 w-full px-4 lg:w-1/2">
 					<h4 class="mb-3 text-lg font-bold uppercase text-primary">Tentang Saya</h4>
-					<h2 class="mb-5 max-w-md text-3xl font-bold text-dark dark:text-white lg:text-4xl">Yuk Belajar Web Programming Bareng</h2>
-					<p class="secondary-desc max-w-xl text-base lg:text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita culpa perspiciatis modi ipsa aperiam. Similique.</p>
+					<h2 class="mb-5 max-w-md text-3xl font-bold text-dark dark:text-white lg:text-4xl">Belajar koding jalan ninjaku</h2>
+					<p class="secondary-desc max-w-xl text-base lg:text-lg">Disini saya mengumpulkan karya saya selama belajar koding.</p>
 				</div>
 
 				<div class="w-full px-4 lg:w-1/2">
 					<h3 class="mb-4 text-2xl font-semibold text-dark dark:text-white lg:pt-10 lg:text-3xl">Mari Berteman</h3>
-					<p class="secondary-desc mb-6 text-base lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illum aliquid, qui omnis recusandae veritatis. Autem sed ipsum blanditiis eligendi.</p>
+					<p class="secondary-desc mb-6 text-base lg:text-lg">silahkan follow saya di beberapa akun social media. (*makhluq introvert)</p>
 
 					<div class="flex items-center gap-3">
 						<!-- LinkedIn -->
