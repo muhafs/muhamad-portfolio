@@ -14,7 +14,7 @@
 						<span class="font-bold text-dark dark:text-white">bukan!</span>
 					</p>
 
-					<router-link to="/" class="rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-xl">Hubungi Saya</router-link>
+					<router-link :to="{ name: 'portfolio' }" class="rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-xl">Lihat karya saya</router-link>
 				</div>
 
 				<div class="w-full self-end px-4 lg:w-1/2">

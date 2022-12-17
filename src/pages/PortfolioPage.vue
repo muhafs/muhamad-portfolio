@@ -2,11 +2,11 @@
 	<div id="portfolio">
 		<Project />
 
-		<!-- <Blog /> -->
+		<Contact />
 	</div>
 </template>
 
 <script setup>
 	import Project from '@/components/portfolio/Project.vue';
-	// import Blog from '@/components/portfolio/Blog.vue';
+	import Contact from '@/components/portfolio/Contact.vue';
 </script>

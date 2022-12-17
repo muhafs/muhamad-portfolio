@@ -1,9 +1,9 @@
 <template>
-	<div class="pt-36 pb-32 dark:bg-dark">
+	<div class="bg-slate-800 pt-36 pb-32 dark:bg-slate-100">
 		<div class="container">
 			<Heading>
 				<template #title>Contact</template>
-				<template #sub> <div class="dark:text-white">Hubungi Kami</div> </template>
+				<template #sub> <div class="text-white dark:text-dark">Hubungi Kami</div> </template>
 
 				<template #desc> silahkan hubungi saya lewat form kontak di bawah ini jika ada yang ingin di kepoin, hehe </template>
 			</Heading>
