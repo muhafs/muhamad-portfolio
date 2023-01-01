@@ -42,7 +42,7 @@
 
 				<div class="w-full px-4 lg:w-1/2">
 					<h3 class="mb-4 text-2xl font-semibold text-dark dark:text-white lg:pt-10 lg:text-3xl">Mari Berteman</h3>
-					<p class="secondary-desc mb-6 text-base lg:text-lg">silahkan follow saya di beberapa akun social media. (*makhluq introvert)</p>
+					<p class="secondary-desc mb-6 text-base lg:text-lg">silahkan follow saya di beberapa akun social media. (*introvert person)</p>
 
 					<div class="flex items-center gap-3">
 						<!-- LinkedIn -->

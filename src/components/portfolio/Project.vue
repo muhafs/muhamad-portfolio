@@ -40,31 +40,31 @@
 		{
 			image: Library,
 			title: 'Library Application',
-			desc: 'sistem perpustakaan untuk pemijaman buku',
+			desc: 'Laravel | Vue | Bootstrap | Axios',
 			source: 'https://github.com/muhamadhaspin/library-project',
 		},
 		{
 			image: POS,
 			title: 'POS Application',
-			desc: 'sistem point of sale untuk mengelola akunting',
+			desc: 'Laravel | JQuery | Bootstrap | Axios',
 			source: 'https://github.com/muhamadhaspin/point-of-sale',
 		},
 		{
 			image: Blog,
 			title: 'Blog Application',
-			desc: 'sistem blog untuk menulis postingan',
+			desc: 'Laravel | Inertia | Vue | Tailwind',
 			source: 'https://github.com/muhamadhaspin/blog_application',
 		},
 		{
 			image: Travel,
 			title: 'Travel Application',
-			desc: 'aplikasi untuk booking travel',
+			desc: 'Laravel | SCSS',
 			source: 'https://github.com/muhamadhaspin/hayyah',
 		},
 		{
 			image: Restaurant,
 			title: 'Restaurant Orders Application',
-			desc: 'aplikasi untuk memesan makanan',
+			desc: 'Vue | Axios | Bootstrap',
 			source: 'https://github.com/muhamadhaspin/vue3-restaurant',
 		},
 	]);
