@@ -7,7 +7,7 @@
 						Halo Semua 👋, saya
 						<span class="mt-1 block text-4xl font-bold text-dark dark:text-white lg:text-5xl">Muhamad</span>
 					</h1>
-					<h2 class="secondary-desc mb-5 text-lg lg:text-2xl">Web Developer</h2>
+					<h2 class="secondary-desc mb-5 text-lg lg:text-2xl">Full-stack Developer</h2>
 
 					<p class="secondary-desc mb-10 leading-relaxed">
 						Belajar web programming itu mudah dan menyenangkan bukan.

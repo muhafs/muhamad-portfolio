@@ -7,8 +7,9 @@
 				<template #desc> ini beberapa bahasa perograman yang saya pernah gunakan dan pelajari selama perjalanan saya sebagai web developer. </template>
 			</Heading>
 
-			<div class="w-full px-4">
+			<div class="max-w-5xl mx-auto px-4">
 				<div class="flex flex-wrap items-center justify-center gap-12">
+					<Flutter class="h-16 w-16 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100" />
 					<HTML class="h-16 w-16 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100" />
 					<CSS class="h-16 w-16 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100" />
 					<JavaScript class="h-16 w-16 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 dark:opacity-100" />
@@ -30,6 +31,7 @@
 
 <script setup>
 	import Heading from '@/components/Heading.vue';
+	import Flutter from '../Icons/Flutter.vue';
 	import HTML from '../Icons/HTML.vue';
 	import CSS from '../Icons/CSS.vue';
 	import JavaScript from '../Icons/JavaScript.vue';
