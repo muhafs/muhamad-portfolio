@@ -69,7 +69,7 @@
 			name: 'Qurani Mobile Application',
 			desc: 'Flutter | GetX State Management',
 			screens: [QuraniWelcome, QuraniHomeSurah, QuraniHomeJuz, QuraniSurah],
-			source: 'https://github.com/muhamadhaspin/library-project',
+			source: 'https://github.com/muhamadhaspin/flutter_alquran',
 		},
 	]);
 
